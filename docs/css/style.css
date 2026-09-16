@@ -309,6 +309,9 @@ html[lang="en"] [data-only="ar"]{ display:none !important; }
 .footer-contact{ display:flex; flex-direction:column; gap:10px; direction:ltr; text-align:end; }
 html[lang="ar"] .footer-contact{ align-items:flex-end; }
 .footer-contact a:hover{ color:var(--cream); }
+.footer-social{ display:flex; flex-direction:column; gap:10px; direction:ltr; text-align:end; }
+html[lang="ar"] .footer-social{ align-items:flex-end; }
+.footer-social a:hover{ color:var(--cream); }
 .footer-copy{
   text-align:center; font-size:0.8rem; padding-top:24px; border-top:1px solid var(--line-on-dark);
 }

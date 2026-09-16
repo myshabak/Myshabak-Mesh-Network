@@ -38,13 +38,16 @@ INSERT INTO services (business_id, title_ar, title_en, description_ar, descripti
 
 -- Products table repurposed as pricing packages for meshabek
 INSERT INTO products (business_id, title_ar, title_en, description_ar, description_en, price, sort_order) VALUES
-(1, 'Starter', 'Starter', 'موقع بسيط، بيانات المحل، صور، رقم الهاتف، WhatsApp، Google Maps داخل الموقع، تصميم مناسب للموبايل، SEO أساسي', 'A simple site with your shop info, photos, phone, WhatsApp, embedded Google Maps, mobile-friendly design, basic SEO', '750 جنيه', 1),
-(1, 'Business', 'Business', 'موقع كامل، صفحات للخدمات أو المنتجات، Gallery، WhatsApp، اتصال مباشر، Google Maps، ربط وسائل التواصل، SEO أساسي، تعديلات بسيطة بعد التسليم', 'A full site with service/product pages, gallery, WhatsApp, direct call, Maps, social links, basic SEO, and minor edits after delivery', '1500 جنيه', 2),
+(1, 'Starter', 'Starter', 'موقع بسيط، بيانات المحل، صور، رقم الهاتف، WhatsApp، Google Maps داخل الموقع، تصميم مناسب للموبايل، SEO أساسي', 'A simple site with your shop info, photos, phone, WhatsApp, embedded Google Maps, mobile-friendly design, basic SEO', '500 جنيه', 1),
+(1, 'Business', 'Business', 'موقع كامل، صفحات للخدمات أو المنتجات، Gallery، WhatsApp، اتصال مباشر، Google Maps، ربط وسائل التواصل، SEO أساسي، تعديلات بسيطة بعد التسليم', 'A full site with service/product pages, gallery, WhatsApp, direct call, Maps, social links, basic SEO, and minor edits after delivery', '1000 جنيه', 2),
 (1, 'Pro', 'Pro', 'كل مميزات Business، صفحات أكتر، محتوى ديناميكي، قاعدة بيانات عند الحاجة، خصائص مخصصة، SEO متقدم، دعم بعد التسليم', 'Everything in Business, plus more pages, dynamic content, a database when needed, custom features, advanced SEO, and post-delivery support', '3000 جنيه', 3);
 
 -- Website settings for extra flexible fields
 INSERT INTO website_settings (business_id, setting_key, setting_value) VALUES
-(1, 'maintenance_price', '150 جنيه / شهر'),
+(1, 'maintenance_price', '50 جنيه / شهر'),
 (1, 'maps_setup_price', '200 جنيه مرة واحدة'),
 (1, 'maps_setup_note_ar', '200 جنيه هي تكلفة خدمة مشبك مش نتورك لتجهيز وإضافة/المساعدة في إعداد Google Business Profile، وليست رسومًا من Google.'),
-(1, 'maps_setup_note_en', 'The 200 EGP fee covers Meshabek''s work setting up your Google Business Profile — it is not a fee charged by Google.');
+(1, 'maps_setup_note_en', 'The 200 EGP fee covers Meshabek''s work setting up your Google Business Profile — it is not a fee charged by Google.'),
+(1, 'logo_design_price', '100 جنيه مرة واحدة'),
+(1, 'brand_identity_price', '300 جنيه مرة واحدة'),
+(1, 'business_card_price', '80 جنيه مرة واحدة');

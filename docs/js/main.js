@@ -19,13 +19,13 @@
 
   const FALLBACK_PRICING = [
     {
-      title_ar: "Starter", title_en: "Starter", price: "750",
+      title_ar: "Starter", title_en: "Starter", price: "500",
       features_ar: ["موقع بسيط", "بيانات المحل وصور", "رقم الهاتف و WhatsApp", "Google Maps داخل الموقع", "تصميم مناسب للموبايل", "SEO أساسي"],
       features_en: ["A simple website", "Shop info & photos", "Phone & WhatsApp", "Embedded Google Maps", "Mobile-friendly design", "Basic SEO"],
       featured: false
     },
     {
-      title_ar: "Business", title_en: "Business", price: "1,500",
+      title_ar: "Business", title_en: "Business", price: "1,000",
       features_ar: ["موقع كامل", "صفحات للخدمات أو المنتجات", "معرض صور", "WhatsApp واتصال مباشر", "Google Maps + وسائل التواصل", "تعديلات بسيطة بعد التسليم"],
       features_en: ["A full website", "Service/product pages", "Photo gallery", "WhatsApp & direct call", "Maps + social links", "Minor edits after delivery"],
       featured: true
